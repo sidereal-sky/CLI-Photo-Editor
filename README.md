@@ -1,14 +1,14 @@
-Introduction:
-	-- this is a CLI photo editor implemented in C
-	-- it allows the user to perform operations on PPM and PGM images such as:
-	LOAD, SELECT, ROTATE, GRAYSCALE etc.
+Introduction:\
+	-- this is a CLI photo editor implemented in C\
+	-- it allows the user to perform operations on PPM and PGM images such as:\
+	LOAD, SELECT, ROTATE, GRAYSCALE etc.\
 	-- its very user friendly for it handles multiple possible errors the user
 	may make
 
-Structure:
+Structure:\
 	-- file_utilities takes care of the image structure and helper functions
-	such as: min(), max(), read_img(), free_mem() etc.
-	-- operations deals precisely with what the user wants to do with their
+	such as: min(), max(), read_img(), free_mem() etc.\
+	-- operations deals precisely with what the user wants to do with their\
 	image: rotate(), crop(), grayscale() etc.
 
 File_Utilities:
@@ -74,10 +74,10 @@ Operations:
 		-- before saving an image check if it was loaded correctly
 		-- check the save option: ascii or binary
 
-Final Notes:
-	-- the program executes until it meets the "EXIT" command
+Final Notes:\
+	-- the program executes until it meets the "EXIT" command\
 	-- all operations are conditioned by "check_load", which tells the
-	user whether they have an image to perform operations on
+	user whether they have an image to perform operations on\
 	-- "min_x" is initialized with -1 to indicate that no image has been
-	loaded successfully
+	loaded successfully\
 	-- sel_x[10] = "-1" indicates that no selection has been made yet
