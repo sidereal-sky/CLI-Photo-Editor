@@ -1,15 +1,15 @@
 Introduction:\
-	-- this is a CLI photo editor implemented in C\
-	-- it allows the user to perform operations on PPM and PGM images such as:\
-	LOAD, SELECT, ROTATE, GRAYSCALE etc.\
-	-- its very user friendly for it handles multiple possible errors the user
+	&nbsp;&nbsp; -- this is a CLI photo editor implemented in C\
+	&nbsp;&nbsp; -- it allows the user to perform operations on PPM and PGM images such as:\
+	&nbsp;&nbsp; LOAD, SELECT, ROTATE, GRAYSCALE etc.\
+	&nbsp;&nbsp; -- it's very user friendly for it handles multiple possible errors the user
 	may make
 
 Structure:\
-	-- file_utilities takes care of the image structure and helper functions
-	such as: min(), max(), read_img(), free_mem() etc.\
-	-- operations deals precisely with what the user wants to do with their\
-	image: rotate(), crop(), grayscale() etc.
+	&nbsp;&nbsp; -- file_utilities takes care of the image structure and helper functions\
+	&nbsp;&nbsp; such as: min(), max(), read_img(), free_mem() etc.\
+	&nbsp;&nbsp; -- operations deals precisely with what the user wants to do with their\
+	&nbsp;&nbsp; image: rotate(), crop(), grayscale() etc.
 
 File_Utilities:
 
@@ -75,9 +75,9 @@ Operations:
 		-- check the save option: ascii or binary
 
 Final Notes:\
-	-- the program executes until it meets the "EXIT" command\
-	-- all operations are conditioned by "check_load", which tells the
-	user whether they have an image to perform operations on\
-	-- "min_x" is initialized with -1 to indicate that no image has been
-	loaded successfully\
-	-- sel_x[10] = "-1" indicates that no selection has been made yet
+	&nbsp;&nbsp; -- the program executes until it meets the "EXIT" command\
+	&nbsp;&nbsp; -- all operations are conditioned by "check_load", which tells the\
+	&nbsp;&nbsp; user whether they have an image to perform operations on\
+	&nbsp;&nbsp; -- "min_x" is initialized with -1 to indicate that no image has been\
+	&nbsp;&nbsp; loaded successfully\
+	&nbsp;&nbsp; -- sel_x[10] = "-1" indicates that no selection has been made yet
